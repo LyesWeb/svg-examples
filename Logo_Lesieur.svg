@@ -1,0 +1,17 @@
+<svg viewBox="0 0 1920 1080">
+    <g>
+
+        <rect x="670" y="546" transform="matrix(0.7071 -0.7071 0.7071 0.7071 -233.6335 739.6336)" style="fill: #FF0000;"
+            width="210" height="210" />
+
+        <rect x="492" y="368" transform="matrix(0.7071 -0.7071 0.7071 0.7071 -159.9708 561.7963)" style="fill: #FF0000;"
+            width="210" height="210" />
+
+        <rect x="670" y="190" transform="matrix(0.7071 -0.7071 0.7071 0.7071 17.8665 635.4589)" style="fill: #FF0000;"
+            width="210" height="210" />
+
+        <rect x="848" y="368" transform="matrix(0.7071 -0.7071 0.7071 0.7071 -55.7961 813.2963)" style="fill: #FF0000;"
+            width="210" height="210" />
+    </g>
+    <circle style="fill: #008000;" cx="776" cy="474" r="10" />
+</svg>

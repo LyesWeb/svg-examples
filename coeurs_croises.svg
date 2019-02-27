@@ -1,0 +1,6 @@
+<svg width="800" height="800">
+    <path d="m200,200 q -50,-140 150,0 q -200,140 -150,0" style="fill: #ffccdd; stroke: #f00; stroke-width:3" />
+    <path d="m200,200 q -50,-140 150,0 q -200,140 -150,0" transform="rotate(90 350,200)" style="fill: #ffccdd; stroke: #f00; stroke-width:3" />
+    <path d="m200,200 q -50,-140 150,0 q -200,140 -150,0" transform="rotate(-90 350,200)" style="fill: #ffccdd; stroke: #f00; stroke-width:3" />
+    <path d="m200,200 q -50,-140 150,0 q -200,140 -150,0" transform="rotate(180 350,200)" style="fill: #ffccdd; stroke: #f00; stroke-width:3" />
+</svg>

@@ -1,0 +1,9 @@
+<svg width="400" height="220">
+
+    <pattern id="pat" width="36" height="31" patternUnits="userSpaceOnUse">
+        <rect x="12" y="-10" width="22" height="22" transform="rotate(45)" />
+    </pattern>
+
+    <rect x="34" y="32" width="320" height="187" style="stroke:black; stroke-width: 5px" fill="url(#pat)"></rect>
+
+</svg
