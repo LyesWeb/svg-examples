@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>chart js</title>
+    <style>
+        rect {
+            -webkit-transition: all 2s; /* Safari */
+            transition: all 2s;
+        }
+    </style>
+</head>
+<body>
+    
+    <svg id="chart" width="600" height="400" x="0" y="0">
+        
+        <!-- background -->
+        <rect width="600" height="400" fill="#f8f8f8" stroke="#333" stroke-width="5" />
+        <!-- <rect x="0" y="388" width="20" height="100" fill="#000"></rect> -->
+        <line x1="40" y1="0" x2="40" y2="400" style="stroke:#222;stroke-width:1" />
+        <line x1="40" y1="380" x2="600" y2="380" style="stroke:#222;stroke-width:1" />
+        <text x="15" y="380" id="B">0 -</text>
+    </svg>
+    <script src="script.js"></script>
+</body>
+</html>
