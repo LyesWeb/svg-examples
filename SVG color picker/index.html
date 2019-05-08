@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Color picker</title>
+    <style>
+        .title {
+            font: italic 25px serif;
+            fill: red;
+        }
+        .slider {}
+    </style>
+</head>
+
+<body>
+    <div class="container">
+        <div class="color-picker">
+            <svg width="500" height="500" x="0" y="0">
+                <!-- background -->
+                <rect width="500" height="500" fill="#f8f8f8" stroke="#333" stroke-width="5" />
+                <!-- title -->
+                <text class="title" x="180" y="35" class="small" fill="red">Color picker</text>
+                <!-- ecran -->
+                <rect id="ecran" x="20" y="60" width="300" height="300" fill="rgb(255, 0, 0)" stroke="#333" stroke-width="2" />
+                <!-- slider -->
+                <defs>
+                    <linearGradient id="sliderBg" x1="0" y1="0" x2="0" y2="1">
+                        <stop offset="0%" style="stop-color:rgb(255,0,0);" />
+                        <stop offset="100%" style="stop-color:rgb(0, 0, 255);" />
+                        <!-- <stop offset="20%" style="stop-color:rgb(255, 255, 0);" /> -->
+                        <!-- <stop offset="40%" style="stop-color:rgb(0, 255, 0);" /> -->
+                        <!-- <stop offset="49.5%" style="stop-color:rgb(0, 255, 255);" /> -->
+                        <!-- <stop offset="79.5%" style="stop-color:rgb(255, 0, 255);" /> -->
+                        <!-- <stop offset="100%" style="stop-color:rgb(255, 0, 0);" /> -->
+                    </linearGradient>
+                </defs>
+                <rect class="slider" x="330" y="60" width="20" height="300" fill="url(#sliderBg)" stroke="#333"
+                    stroke-width="2" />
+                <!-- selector poly -->
+                <polygon id="selector" points="350,60 360,55 360,65" style="fill:#333;" />
+                <text x="20" y="400" id="R">R : 255</text>
+                <text x="20" y="425" id="G">G : 0</text>
+                <text x="20" y="450" id="B">B : 0</text>
+
+                <text x="340" y="490" fill="black">Ilyas ARIBA - GLSID</text>
+            </svg>
+        </div>
+    </div>
+
+
+    <script src="script.js"></script>
+</body>
+
+</html>
