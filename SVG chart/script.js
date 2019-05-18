@@ -1,4 +1,4 @@
-let data = [12, 14,34,56];
+let data = [12, 14,34,56, 34, 22];
 let chart = document.querySelector('#chart');
 let x = 60;
 let yInt = 350;
