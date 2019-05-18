@@ -6,6 +6,11 @@ a simple SVG using SVG
 a simple SVG color picker
 ![x2](https://user-images.githubusercontent.com/19781935/57968636-a2652300-795c-11e9-95f6-1be5c56ebf52.PNG)
 
+# Balls game
+a simple game using canvas
+![c8](https://user-images.githubusercontent.com/19781935/57968948-ce82a300-7960-11e9-9dc6-5ac3aa431b62.PNG)
+
+
 # SVG illustrations
 a list of SVG illustrations
 
